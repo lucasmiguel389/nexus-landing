@@ -61,3 +61,73 @@ nav a {
   font-size: 1.1rem;
   margin-bottom: 30px;
 }
+
+.features {
+  padding: 100px 40px;
+}
+
+.features h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2rem;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.grade-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #131720;
+  border: 1px solid var(--linha);
+  border-radius: 10px;
+  padding: 28px;
+}
+
+.card h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--texto-fraco);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.how-it-works {
+  padding: 100px 40px;
+  background: #131720;
+}
+
+.how-it-works h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.grade-passos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.numero {
+  display: block;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--laranja);
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+
+.passo h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 8px;
+}
+
+.passo p {
+  color: var(--texto-fraco);
+  font-size: 0.95rem;
+}
