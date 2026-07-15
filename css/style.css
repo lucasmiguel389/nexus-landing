@@ -4,6 +4,7 @@
   --texto-fraco: #8B93A3;
   --laranja: #F5A623;
   --linha: #262E3D;
+  --teal: #4DD9C4;
 }
 
 body {
@@ -260,7 +261,9 @@ footer p {
 
 .hero-visual {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .hero-visual img {
@@ -270,4 +273,46 @@ footer p {
   border-radius: 50%;
   border: 4px solid var(--laranja);
   display: block;
+}
+
+
+#diagrama {
+  width: 100%;
+  max-width: 400px;
+}
+
+.fio {
+  fill: none;
+  stroke: var(--linha);
+  stroke-width: 1.5;
+}
+
+.caixa {
+  fill: #131720;
+  stroke: var(--linha);
+  stroke-width: 1;
+}
+
+.caixa-decisao {
+  fill: #131720;
+  stroke: var(--teal);
+  stroke-width: 1.3;
+}
+
+.caixa-acao {
+  fill: #131720;
+  stroke: var(--laranja);
+  stroke-width: 1.3;
+}
+
+.texto-caixa {
+  fill: var(--texto-fraco);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-anchor: middle;
+}
+
+#bolinha {
+  fill: var(--teal);
+  opacity: 0;
 }

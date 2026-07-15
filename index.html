@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <header>
+<header>
   <div class="logo">Nexus</div>
 
   <nav>
@@ -27,12 +27,40 @@
     <h1>Seu workflow, no piloto automático.</h1>
 
     <p>O Nexus liga suas ferramentas, observa os eventos que chegam e usa IA para decidir a próxima ação.</p>
-git 
+
     <a href="#cta" class="botao-laranja">Criar meu primeiro workflow</a>
   </div>
 
   <div class="hero-visual">
     <img src="images/hero.png" alt="Ilustração abstrata representando fluxos de dados automatizados">
+
+    <svg id="diagrama" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- linhas de conexão -->
+      <path id="linha1" class="fio" d="M 40 50 C 90 50, 90 100, 140 100" />
+      <path id="linha2" class="fio" d="M 40 150 C 90 150, 90 100, 140 100" />
+      <path id="linha3" class="fio" d="M 180 100 C 230 100, 230 100, 280 100" />
+
+      <!-- bolinha que vamos animar depois -->
+      <circle id="bolinha" r="4" />
+
+      <!-- caixinha 1: origem -->
+      <rect x="10" y="35" width="60" height="30" rx="6" class="caixa" />
+      <text x="40" y="54" class="texto-caixa">Stripe</text>
+
+      <!-- caixinha 2: origem -->
+      <rect x="10" y="135" width="60" height="30" rx="6" class="caixa" />
+      <text x="40" y="154" class="texto-caixa">Slack</text>
+
+      <!-- caixinha 3: decisão -->
+      <rect x="140" y="85" width="60" height="30" rx="6" class="caixa-decisao" />
+      <text x="170" y="104" class="texto-caixa">decide()</text>
+
+      <!-- caixinha 4: ação -->
+      <rect x="280" y="85" width="35" height="30" rx="6" class="caixa-acao" />
+      <text x="297" y="104" class="texto-caixa">ação</text>
+
+    </svg>
   </div>
 </section>
 
@@ -61,6 +89,7 @@ git
     </div>
   </div>
 </section>
+
 <section class="how-it-works" id="how-it-works">
   <h2>Do evento à ação, em três etapas</h2>
 
@@ -84,6 +113,7 @@ git
     </div>
   </div>
 </section>
+
 <section class="pricing" id="pricing">
   <h2>Comece pequeno. Escale quando precisar.</h2>
 
@@ -111,6 +141,7 @@ git
     </div>
   </div>
 </section>
+
 <section class="cta-final" id="cta">
   <h2>O próximo evento que chegar já pode ter uma decisão pronta.</h2>
   <p>Sem cartão de crédito para começar.</p>
@@ -125,6 +156,7 @@ git
   <span class="logo">Nexus</span>
   <p>Projeto de portfólio — produto fictício, criado para fins de demonstração.</p>
 </footer>
+
 <script src="js/script.js"></script>
 </body>
 </html>
