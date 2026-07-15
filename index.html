@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nexus — Automação de workflows com IA</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -46,19 +47,19 @@
 
       <!-- caixinha 1: origem -->
       <rect x="10" y="35" width="60" height="30" rx="6" class="caixa" />
-      <text x="40" y="54" class="texto-caixa">Stripe</text>
+      <text x="40" y="54" class="texto-caixa">Compra</text>
 
       <!-- caixinha 2: origem -->
       <rect x="10" y="135" width="60" height="30" rx="6" class="caixa" />
-      <text x="40" y="154" class="texto-caixa">Slack</text>
+      <text x="40" y="154" class="texto-caixa">Aviso</text>
 
       <!-- caixinha 3: decisão -->
       <rect x="140" y="85" width="60" height="30" rx="6" class="caixa-decisao" />
-      <text x="170" y="104" class="texto-caixa">decide()</text>
+      <text x="170" y="104" class="texto-caixa">Decide</text>
 
       <!-- caixinha 4: ação -->
       <rect x="280" y="85" width="35" height="30" rx="6" class="caixa-acao" />
-      <text x="297" y="104" class="texto-caixa">ação</text>
+      <text x="297" y="104" class="texto-caixa">Ação</text>
 
     </svg>
   </div>
@@ -144,11 +145,13 @@
 
 <section class="cta-final" id="cta">
   <h2>O próximo evento que chegar já pode ter uma decisão pronta.</h2>
-  <p>Sem cartão de crédito para começar.</p>
 
   <form class="form-cta">
-    <input type="email" placeholder="seu@email.com" required>
-    <button type="submit" class="botao-laranja">Criar conta</button>
+    <input type="email" placeholder="E-mail" required>
+    <input type="password" placeholder="Senha" required>
+    <input type="text" placeholder="Nome da empresa" required>
+    <input type="tel" placeholder="Telefone">
+    <button type="submit" class="botao-laranja">Criar Conta</button>
   </form>
 </section>
 
